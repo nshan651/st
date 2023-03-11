@@ -107,7 +107,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.90;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
@@ -176,14 +176,14 @@ static const char *colorname[] = {
     //"#111111",
 };
 */
-
 static const char *colorname[] = {
     // 8 normal colors
     "#1F1F28",
 	"#43242B",
     "#2B3328",
 	"#DCA561",
-	"#2D4F67",
+	//"#2D4F67", // Old blue color
+    "#658594", // New blue
 	"#54546D",
 	"#6A9589",
 	"#727169",
