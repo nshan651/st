@@ -111,76 +111,12 @@ float alpha = 0.90;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
-/*
-static const char *colorname[] = {
-        // 8 normal colors
-       "black",
-       "red3",
-       "green3",
-       "yellow3",
-       "blue2",
-       "magenta3",
-       "cyan3",
-       "gray90",
- 
-       // 8 bright colors
-       "gray50",
-       "red",
-       "green",
-       "yellow",
-       "#5c5cff",
-       "magenta",
-       "cyan",
-       "white",
- 
-       [255] = 0,
- 
-       // more colors can be added after 255 to use with DefaultXX
-       "#cccccc",
-       "#eeeeee",
-       "#111111",
-};
-*/
-
-/*
-static const char *colorname[] = {
-    // 8 normal colors
-    "#1c1c1c",
-	"#af5f5f",
-	"#87875f",
-	"#dfaf87",
-	"#878787",
-	"#875f5f",
-	"#87afaf",
-	"#dfdfaf",
-
-    // 8 bright colors
-	"#878787",
-	"#af5f5f",
-	"#87875f",
-	"#dfaf87",
-	"#878787",
-	"#875f5f",
-	"#87afaf",
-	"#282828", 
-
-	[255] = 0,
-
-	"#add8e6",
-	"#555555", 
-	"#282828", 
-	"#ebdbb2",
-
-    //"#cccccc",
-    //"#eeeeee",
-    //"#111111",
-};
-*/
 static const char *colorname[] = {
     // 8 normal colors
     "#1F1F28",
-	"#43242B",
-    "#2B3328",
+	"#C34043",
+	//"#43242B", // Old red color
+    "#76946A",
 	"#DCA561",
 	//"#2D4F67", // Old blue color
     "#658594", // New blue
