@@ -107,41 +107,71 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.90;
+float alpha = 0.85;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
 static const char *colorname[] = {
     // 8 normal colors
-    "#1F1F28",
-	"#C34043",
-	//"#43242B", // Old red color
-    "#76946A",
-	"#DCA561",
-	//"#2D4F67", // Old blue color
-    "#658594", // New blue
+    "#000000",
+	"#ff5f59",
+    "#44bc44",
+	"#d0bc00",
+    "#82b0ec", 
 	"#54546D",
-	"#6A9589",
+	"#6ae4b9",
 	"#727169",
 
     // 8 bright colors
 	"#C8C093",
-	"#C34043",
-	"#76946A",
-	"#FF9E3B",
-	"#658594",
-	"#938AA9",
-	"#6A9589",
+	"#b52c2c",
+	"#4fd100",
+	"#f1e00a",
+    "#2fafff", 
+	"#bf94fe",
+	"#47dfea",
 	"#DCD7BA", 
 
 	[255] = 0,
     
     // More colors after 255
-	"#7E9CD8", 
-	"#727169", 
-    "#111111",
+	"#82b0ec", 
+	"#646464", 
+    "#000000",
 	"#DCD7BA",
 };
+
+/* static const char *colorname[] = { */
+/*     // 8 normal colors */
+/*     "#1F1F28", */
+/* 	"#C34043", */
+/* 	//"#43242B", // Old red color */
+/*     "#76946A", */
+/* 	"#DCA561", */
+/* 	//"#2D4F67", // Old blue color */
+/*     "#658594", // New blue */
+/* 	"#54546D", */
+/* 	"#6A9589", */
+/* 	"#727169", */
+
+/*     // 8 bright colors */
+/* 	"#C8C093", */
+/* 	"#C34043", */
+/* 	"#76946A", */
+/* 	"#FF9E3B", */
+/* 	"#658594", */
+/* 	"#938AA9", */
+/* 	"#6A9589", */
+/* 	"#DCD7BA", */ 
+
+/* 	[255] = 0, */
+    
+/*     // More colors after 255 */
+/* 	"#7E9CD8", */ 
+/* 	"#727169", */ 
+/*     "#111111", */
+/* 	"#DCD7BA", */
+/* }; */
 
 /*
  * Default colors (colorname index)
