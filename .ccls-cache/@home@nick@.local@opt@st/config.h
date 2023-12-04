@@ -5,8 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=20:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=20:antialias=true:autohint=true" };
+/* static char *font = "mono:pixelsize=16:antialias=true:autohint=true"; */
+/* static char *font = "Hack:pixelsize=16:antialias=true:autohint=true"; */
+static char *font = "Monaspace Argon:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = { "NotoColorEmoji:pixelsize=14:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -107,71 +109,59 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.85;
+float alpha = 0.70;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
 static const char *colorname[] = {
     // 8 normal colors
     "#000000",
-	"#ff5f59",
+    "#ff5f59",
     "#44bc44",
-	"#d0bc00",
+    "#d0bc00",
     "#82b0ec", 
-	"#54546D",
-	"#6ae4b9",
-	"#727169",
+    "#54546D",
+    "#6ae4b9",
+    "#727169",
+        /* "#000000", */
+        /* "#a8334c", */
+        /* "#4f6c31", */
+        /* "#d0bc00", */
+        /* "#286486", */ 
+        /* "#88507d", */
+        /* "#3b8992", */
+        /* "#353535", */
 
     // 8 bright colors
-	"#C8C093",
-	"#b52c2c",
-	"#4fd100",
-	"#f1e00a",
+    "#C8C093",
+    "#b52c2c",
+    "#4fd100",
+    "#f1e00a",
     "#2fafff", 
-	"#bf94fe",
-	"#47dfea",
-	"#DCD7BA", 
+    "#bf94fe",
+    "#47dfea",
+    "#DCD7BA", 
+        /* "#b0b082", */
+        /* "#94253e", */
+        /* "#4f6c31", */
+        /* "#c6c6a3", */
+        /* "#1d5573", */ 
+        /* "#7b3b70", */
+        /* "#2b747c", */
+        /* "#5c5c5c", */ 
 
 	[255] = 0,
     
     // More colors after 255
-	"#82b0ec", 
-	"#646464", 
+    "#82b0ec", 
+    "#646464", 
     "#000000",
-	"#DCD7BA",
+    "#DCD7BA",
+        /* "#2fafff", */ 
+        /* "#a8334c", */
+        /* "#f0f0ca", */
+        /* "#353535", */
 };
-
-/* static const char *colorname[] = { */
-/*     // 8 normal colors */
-/*     "#1F1F28", */
-/* 	"#C34043", */
-/* 	//"#43242B", // Old red color */
-/*     "#76946A", */
-/* 	"#DCA561", */
-/* 	//"#2D4F67", // Old blue color */
-/*     "#658594", // New blue */
-/* 	"#54546D", */
-/* 	"#6A9589", */
-/* 	"#727169", */
-
-/*     // 8 bright colors */
-/* 	"#C8C093", */
-/* 	"#C34043", */
-/* 	"#76946A", */
-/* 	"#FF9E3B", */
-/* 	"#658594", */
-/* 	"#938AA9", */
-/* 	"#6A9589", */
-/* 	"#DCD7BA", */ 
-
-/* 	[255] = 0, */
-    
-/*     // More colors after 255 */
-/* 	"#7E9CD8", */ 
-/* 	"#727169", */ 
-/*     "#111111", */
-/* 	"#DCD7BA", */
-/* }; */
 
 /*
  * Default colors (colorname index)
