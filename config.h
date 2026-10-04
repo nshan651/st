@@ -266,8 +266,8 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY ControlMask
-#define TERMMOD (ControlMask | ShiftMask)
+#define MODKEY Mod1Mask
+#define TERMMOD (Mod1Mask | ShiftMask)
 
 static char *openurlcmd[] = {"/bin/sh", "-c", "st-urlhandler -o",
                              "externalpipe", NULL};
